@@ -1,0 +1,26 @@
+#home-root {
+    display: flex;
+}
+
+#home-list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+#home-heading {
+    font-size: 100px;
+}
+
+#play-btn {
+    height: 70px;
+    width: 200px;
+    font-weight: 500;
+    font-size: 28px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    border: 5px solid black;
+}

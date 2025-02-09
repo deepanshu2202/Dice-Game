@@ -1,0 +1,96 @@
+#super-root {
+    padding: 30px;
+    /* height: 100vh; */
+}
+
+#head {
+    display: flex;
+    justify-content: space-between;
+}
+
+#total-score {
+    font-size: 40px;
+    margin-left: 30px;
+    font-weight: 500;
+    align-self: baseline;
+}
+
+#neck {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+#home-btn {
+    height: 36px;
+    width: 110px;
+    font-size: 18px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+}
+
+#nums {
+    display: flex;
+    gap: 8px;
+}
+
+.num-btn {
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 500;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#body-box {
+    /* height: 75vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    gap: 8px;
+}
+
+#body-box p {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#dice-btn {
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    border: 6px;
+    border-radius: 10px;
+}
+
+#dice-box {
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+
+#reset-btn {
+    height: 40px;
+    width: 120px;
+    font-size: 18px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#rules-btn {
+    height: 40px;
+    width: 120px;
+    font-size: 18px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}

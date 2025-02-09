@@ -1,0 +1,25 @@
+#rules-root {
+    height: 22vh;
+    padding: 10px;
+    margin: 30px 250px 0px 250px;
+}
+
+#heading-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#back {
+    height: 40px;
+    width: 120px;
+    font-size: 18px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+
+#rules-list {
+    list-style: none;
+}
